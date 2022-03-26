@@ -1,0 +1,39 @@
+.product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background: #ffe4c4;
+    border-radius: 13px;
+    margin: 5px;
+}
+
+.form-group-custom {
+    background: #ffe4c4;
+    height: 75px;
+    border-radius: 8px;
+    padding: 2px 15px;
+    margin: 5px;
+}
+
+.form-wrapper {
+    padding: 10px;
+    background: #f5f5db;
+    width: 25%;
+    border-radius: 10px;
+    height: 50vh;
+}
+
+.form-wrapper label {
+    margin-bottom: 5px;
+}
+
+.filter {
+    justify-content: space-between;
+    padding: 0 15px;
+    background: #e2e3e5;
+}
+
+.filter select {
+    width: 60%;
+}

@@ -1,0 +1,8 @@
+.products-wrapper {
+    max-height: 100vh;
+    overflow: auto;
+    padding: 10px;
+    background: #f5f5dc;
+    border-radius: 10px;
+    width: 35%;
+}
