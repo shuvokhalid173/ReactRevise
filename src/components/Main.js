@@ -1,6 +1,7 @@
 import ProductForm from "./ProductForm";
 import ProductListContainer from "./ProductListContainer";
 import "../css/main.css";
+import Chart from "./Chart";
 
 const Main = (props) => {
     const submitForm = (data) => {
@@ -21,6 +22,8 @@ const Main = (props) => {
                 categories={props.categories}
                 filterByCategory={filterByCategory}
             />
+
+            <Chart products={props.products} categories={props.categories} />
         </div>
     );
 };

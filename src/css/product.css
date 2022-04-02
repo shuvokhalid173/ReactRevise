@@ -21,7 +21,7 @@
     background: #f5f5db;
     width: 25%;
     border-radius: 10px;
-    height: 50vh;
+    height: 72vh;
 }
 
 .form-wrapper label {
@@ -36,4 +36,9 @@
 
 .filter select {
     width: 60%;
+}
+
+.invalid-input {
+    /* background-color: rgb(167, 68, 68) !important; */
+    border-color: red !important;
 }
